@@ -55,15 +55,7 @@ function App() {
     },
 
 
-    {
-      text: "Which of the following countries DO NOT border the US?",
-      options: [
-        { id: 0, text: "Canada", isCorrect: false },
-        { id: 1, text: "Russia", isCorrect: true },
-        { id: 2, text: "Cuba", isCorrect: true },
-        { id: 3, text: "Mexico", isCorrect: false },
-      ],
-    },
+     
   ];
 
   // Helper Functions
@@ -123,7 +115,7 @@ function App() {
         <div className="question-card">
           {/* Current Question  */}
           <h2>
-            Question: {currentQuestion + 1} out of {questions.length}
+            Question: {currentQuestion + 1} / {questions.length}
           </h2>
           <h3 className="question-text">{questions[currentQuestion].text}</h3>
 

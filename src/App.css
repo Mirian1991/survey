@@ -55,6 +55,7 @@ li {
   font-family: FiraGO;
   margin-bottom: 20px;
   cursor: pointer;
+  padding: 5px;
 }
 
 li:hover {
@@ -63,6 +64,8 @@ li:hover {
   
   box-shadow: 0 0 10px #0af765;
   color: #ffff;
+  transition: ease-in-out 0.2s;
+  border-radius: 5px;
 }
 
 .question-text {
