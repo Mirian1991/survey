@@ -106,7 +106,7 @@ function App() {
           <div className="button-flex">
           <button onClick={() => restartGame()}>reload</button>
 
-          <button onClick={() => restartGame()}>Send Mail</button>
+          <button onClick={() => restartGame()}>Continue</button>
 
           </div>
         </div>
