@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+
+@import url("https://free.bboxtype.com/embedfonts/?family=FiraGO:500");
+
+
+
+header{
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  padding: 7px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items:center;
+  transition: 0.5s;
+  z-index: 1000;
+  background: rgb(2, 0, 36);
+   align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(16, 10, 147) 3%,
+    rgba(36, 31, 116, 0.925) 100%,
+    rgb(116, 120, 234) 100%
+  );
+  min-height: 100px;
+  
+}
+
+.logo {
+  position: relative;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px;
+  color: azure;
+}
+
+.question-card {
+  display: flex;
+   flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+
+  font-size: 20px;
+  font-family: FiraGO;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #26e656;
+  border: none;
+  
+  box-shadow: 0 0 10px #0af765;
+  color: #ffff;
+}
+
+.question-text {
+  font-size: 40px;
+    font-family: FiraGO;
+    margin-bottom: 50px;
+}
+
+/* Final Results  */
+
+.final-results {
+  
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: rgb(216, 213, 226);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: rgb(251, 54, 14); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 10px;
+}
+
+button:hover { 
+
+  background-color: rgb(0, 255, 98); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+
+  border-radius: 10px;
+
+
+}
+
+.button-flex { display:flex;
+              justify-content: space-around;}
+
+        
