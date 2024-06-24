@@ -130,4 +130,7 @@ button:hover {
 .button-flex { display:flex;
               justify-content: space-around;}
 
+
+.checkbox { cursor: pointer;}
         
+

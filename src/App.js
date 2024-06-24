@@ -6,6 +6,7 @@ function App() {
   const [showResults, setShowResults] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
+  const [handleCheckboxClick , sethandleCheckboxClick] = useState (0)
 
   const questions = [
     {
@@ -90,6 +91,11 @@ function App() {
         </div>
       </header>
 
+      
+
+
+      
+
       {/* 2. Current Score  */}
       {/* <h2>Score: {score}</h2> */}
 
@@ -102,6 +108,8 @@ function App() {
             {/* {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%) */}
           </h2>
+
+          
 
           <div className="button-flex">
           <button onClick={() => restartGame()}>reload</button>
@@ -127,6 +135,13 @@ function App() {
                   key={option.id}
                   onClick={() => optionClicked(option.isCorrect)}
                 >
+                  <input 
+                   type="checkbox" 
+                   className="checkbox" 
+                   id={`option-${option.id}`} 
+                   onClick={() => handleCheckboxClick(option.id)} 
+/>
+
                   {option.text}
                 </li>
               );
